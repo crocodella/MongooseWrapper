@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1516430013A6443700377E2F /* UploadServlet.m in Sources */ = {isa = PBXBuildFile; fileRef = 151642FF13A6443700377E2F /* UploadServlet.m */; };
+		15479BBB13A2469E00DCEE57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15479BBA13A2469E00DCEE57 /* UIKit.framework */; };
+		15479BBD13A2469E00DCEE57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15479BBC13A2469E00DCEE57 /* Foundation.framework */; };
+		15479BBF13A2469E00DCEE57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15479BBE13A2469E00DCEE57 /* CoreGraphics.framework */; };
+		15479BC513A2469E00DCEE57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15479BC313A2469E00DCEE57 /* InfoPlist.strings */; };
+		15479BC813A2469E00DCEE57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15479BC713A2469E00DCEE57 /* main.m */; };
+		15479BCB13A2469E00DCEE57 /* MongooseWrapperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15479BCA13A2469E00DCEE57 /* MongooseWrapperAppDelegate.m */; };
+		15479BCE13A2469E00DCEE57 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15479BCC13A2469E00DCEE57 /* MainWindow.xib */; };
+		15479BD113A2469E00DCEE57 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15479BD013A2469E00DCEE57 /* RootViewController.m */; };
+		15479BD413A2469E00DCEE57 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15479BD213A2469E00DCEE57 /* RootViewController.xib */; };
+		15479BDE13A2471800DCEE57 /* mongoose.c in Sources */ = {isa = PBXBuildFile; fileRef = 15479BDC13A2471800DCEE57 /* mongoose.c */; };
+		15479BE113A2474100DCEE57 /* MongooseServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 15479BE013A2474100DCEE57 /* MongooseServer.m */; };
+		15479BF013A251E100DCEE57 /* Servlet.m in Sources */ = {isa = PBXBuildFile; fileRef = 15479BEF13A251E100DCEE57 /* Servlet.m */; };
+		15479BF313A254C200DCEE57 /* ServletRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 15479BF213A254C200DCEE57 /* ServletRequest.m */; };
+		15479BF613A2590E00DCEE57 /* ServletResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 15479BF513A2590E00DCEE57 /* ServletResponse.m */; };
+		15479BF913A27F7700DCEE57 /* HelloWorldServlet.m in Sources */ = {isa = PBXBuildFile; fileRef = 15479BF813A27F7700DCEE57 /* HelloWorldServlet.m */; };
+		15479BFB13A290C000DCEE57 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 15479BFA13A290C000DCEE57 /* logo.png */; };
+		15479BFE13A290E500DCEE57 /* ImageServlet.m in Sources */ = {isa = PBXBuildFile; fileRef = 15479BFD13A290E500DCEE57 /* ImageServlet.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		151642FE13A6443700377E2F /* UploadServlet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadServlet.h; sourceTree = "<group>"; };
+		151642FF13A6443700377E2F /* UploadServlet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadServlet.m; sourceTree = "<group>"; };
+		15479BB613A2469E00DCEE57 /* MongooseWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MongooseWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15479BBA13A2469E00DCEE57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		15479BBC13A2469E00DCEE57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		15479BBE13A2469E00DCEE57 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		15479BC213A2469E00DCEE57 /* MongooseWrapper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MongooseWrapper-Info.plist"; sourceTree = "<group>"; };
+		15479BC413A2469E00DCEE57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		15479BC613A2469E00DCEE57 /* MongooseWrapper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MongooseWrapper-Prefix.pch"; sourceTree = "<group>"; };
+		15479BC713A2469E00DCEE57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15479BC913A2469E00DCEE57 /* MongooseWrapperAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MongooseWrapperAppDelegate.h; sourceTree = "<group>"; };
+		15479BCA13A2469E00DCEE57 /* MongooseWrapperAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MongooseWrapperAppDelegate.m; sourceTree = "<group>"; };
+		15479BCD13A2469E00DCEE57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		15479BCF13A2469E00DCEE57 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		15479BD013A2469E00DCEE57 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		15479BD313A2469E00DCEE57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		15479BDC13A2471800DCEE57 /* mongoose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mongoose.c; sourceTree = "<group>"; };
+		15479BDD13A2471800DCEE57 /* mongoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mongoose.h; sourceTree = "<group>"; };
+		15479BDF13A2474100DCEE57 /* MongooseServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MongooseServer.h; sourceTree = "<group>"; };
+		15479BE013A2474100DCEE57 /* MongooseServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MongooseServer.m; sourceTree = "<group>"; };
+		15479BEE13A251E100DCEE57 /* Servlet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Servlet.h; sourceTree = "<group>"; };
+		15479BEF13A251E100DCEE57 /* Servlet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Servlet.m; sourceTree = "<group>"; };
+		15479BF113A254C200DCEE57 /* ServletRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServletRequest.h; sourceTree = "<group>"; };
+		15479BF213A254C200DCEE57 /* ServletRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServletRequest.m; sourceTree = "<group>"; };
+		15479BF413A2590E00DCEE57 /* ServletResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServletResponse.h; sourceTree = "<group>"; };
+		15479BF513A2590E00DCEE57 /* ServletResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServletResponse.m; sourceTree = "<group>"; };
+		15479BF713A27F7700DCEE57 /* HelloWorldServlet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldServlet.h; sourceTree = "<group>"; };
+		15479BF813A27F7700DCEE57 /* HelloWorldServlet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorldServlet.m; sourceTree = "<group>"; };
+		15479BFA13A290C000DCEE57 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		15479BFC13A290E500DCEE57 /* ImageServlet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageServlet.h; sourceTree = "<group>"; };
+		15479BFD13A290E500DCEE57 /* ImageServlet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageServlet.m; sourceTree = "<group>"; };
+		15479BFF13A29F2700DCEE57 /* AccessLogDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessLogDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15479BB313A2469E00DCEE57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15479BBB13A2469E00DCEE57 /* UIKit.framework in Frameworks */,
+				15479BBD13A2469E00DCEE57 /* Foundation.framework in Frameworks */,
+				15479BBF13A2469E00DCEE57 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15479BAB13A2469E00DCEE57 = {
+			isa = PBXGroup;
+			children = (
+				15479BC013A2469E00DCEE57 /* MongooseWrapper */,
+				15479BDB13A246EA00DCEE57 /* Sample */,
+				15479BB913A2469E00DCEE57 /* Frameworks */,
+				15479BB713A2469E00DCEE57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15479BB713A2469E00DCEE57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15479BB613A2469E00DCEE57 /* MongooseWrapper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15479BB913A2469E00DCEE57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15479BBA13A2469E00DCEE57 /* UIKit.framework */,
+				15479BBC13A2469E00DCEE57 /* Foundation.framework */,
+				15479BBE13A2469E00DCEE57 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15479BC013A2469E00DCEE57 /* MongooseWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				15479BDD13A2471800DCEE57 /* mongoose.h */,
+				15479BDC13A2471800DCEE57 /* mongoose.c */,
+				15479BDF13A2474100DCEE57 /* MongooseServer.h */,
+				15479BE013A2474100DCEE57 /* MongooseServer.m */,
+				15479BEE13A251E100DCEE57 /* Servlet.h */,
+				15479BEF13A251E100DCEE57 /* Servlet.m */,
+				15479BF113A254C200DCEE57 /* ServletRequest.h */,
+				15479BF213A254C200DCEE57 /* ServletRequest.m */,
+				15479BF413A2590E00DCEE57 /* ServletResponse.h */,
+				15479BF513A2590E00DCEE57 /* ServletResponse.m */,
+			);
+			path = MongooseWrapper;
+			sourceTree = "<group>";
+		};
+		15479BC113A2469E00DCEE57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15479BC213A2469E00DCEE57 /* MongooseWrapper-Info.plist */,
+				15479BC313A2469E00DCEE57 /* InfoPlist.strings */,
+				15479BC613A2469E00DCEE57 /* MongooseWrapper-Prefix.pch */,
+				15479BC713A2469E00DCEE57 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15479BDB13A246EA00DCEE57 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				15479BFA13A290C000DCEE57 /* logo.png */,
+				15479BF713A27F7700DCEE57 /* HelloWorldServlet.h */,
+				15479BF813A27F7700DCEE57 /* HelloWorldServlet.m */,
+				15479BFC13A290E500DCEE57 /* ImageServlet.h */,
+				15479BFD13A290E500DCEE57 /* ImageServlet.m */,
+				151642FE13A6443700377E2F /* UploadServlet.h */,
+				151642FF13A6443700377E2F /* UploadServlet.m */,
+				15479BFF13A29F2700DCEE57 /* AccessLogDelegate.h */,
+				15479BC913A2469E00DCEE57 /* MongooseWrapperAppDelegate.h */,
+				15479BCA13A2469E00DCEE57 /* MongooseWrapperAppDelegate.m */,
+				15479BCC13A2469E00DCEE57 /* MainWindow.xib */,
+				15479BCF13A2469E00DCEE57 /* RootViewController.h */,
+				15479BD013A2469E00DCEE57 /* RootViewController.m */,
+				15479BD213A2469E00DCEE57 /* RootViewController.xib */,
+				15479BC113A2469E00DCEE57 /* Supporting Files */,
+			);
+			name = Sample;
+			path = MongooseWrapper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15479BB513A2469E00DCEE57 /* MongooseWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15479BD713A2469E00DCEE57 /* Build configuration list for PBXNativeTarget "MongooseWrapper" */;
+			buildPhases = (
+				15479BB213A2469E00DCEE57 /* Sources */,
+				15479BB313A2469E00DCEE57 /* Frameworks */,
+				15479BB413A2469E00DCEE57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MongooseWrapper;
+			productName = MongooseWrapper;
+			productReference = 15479BB613A2469E00DCEE57 /* MongooseWrapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15479BAD13A2469E00DCEE57 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 15479BB013A2469E00DCEE57 /* Build configuration list for PBXProject "MongooseWrapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 15479BAB13A2469E00DCEE57;
+			productRefGroup = 15479BB713A2469E00DCEE57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15479BB513A2469E00DCEE57 /* MongooseWrapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15479BB413A2469E00DCEE57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15479BC513A2469E00DCEE57 /* InfoPlist.strings in Resources */,
+				15479BCE13A2469E00DCEE57 /* MainWindow.xib in Resources */,
+				15479BD413A2469E00DCEE57 /* RootViewController.xib in Resources */,
+				15479BFB13A290C000DCEE57 /* logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15479BB213A2469E00DCEE57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15479BC813A2469E00DCEE57 /* main.m in Sources */,
+				15479BCB13A2469E00DCEE57 /* MongooseWrapperAppDelegate.m in Sources */,
+				15479BD113A2469E00DCEE57 /* RootViewController.m in Sources */,
+				15479BDE13A2471800DCEE57 /* mongoose.c in Sources */,
+				15479BE113A2474100DCEE57 /* MongooseServer.m in Sources */,
+				15479BF013A251E100DCEE57 /* Servlet.m in Sources */,
+				15479BF313A254C200DCEE57 /* ServletRequest.m in Sources */,
+				15479BF613A2590E00DCEE57 /* ServletResponse.m in Sources */,
+				15479BF913A27F7700DCEE57 /* HelloWorldServlet.m in Sources */,
+				15479BFE13A290E500DCEE57 /* ImageServlet.m in Sources */,
+				1516430013A6443700377E2F /* UploadServlet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15479BC313A2469E00DCEE57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15479BC413A2469E00DCEE57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		15479BCC13A2469E00DCEE57 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15479BCD13A2469E00DCEE57 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		15479BD213A2469E00DCEE57 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15479BD313A2469E00DCEE57 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15479BD513A2469E00DCEE57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		15479BD613A2469E00DCEE57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		15479BD813A2469E00DCEE57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MongooseWrapper/MongooseWrapper-Prefix.pch";
+				INFOPLIST_FILE = "MongooseWrapper/MongooseWrapper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		15479BD913A2469E00DCEE57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MongooseWrapper/MongooseWrapper-Prefix.pch";
+				INFOPLIST_FILE = "MongooseWrapper/MongooseWrapper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15479BB013A2469E00DCEE57 /* Build configuration list for PBXProject "MongooseWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15479BD513A2469E00DCEE57 /* Debug */,
+				15479BD613A2469E00DCEE57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15479BD713A2469E00DCEE57 /* Build configuration list for PBXNativeTarget "MongooseWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15479BD813A2469E00DCEE57 /* Debug */,
+				15479BD913A2469E00DCEE57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15479BAD13A2469E00DCEE57 /* Project object */;
+}

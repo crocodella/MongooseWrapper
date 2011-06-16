@@ -100,9 +100,11 @@ void *handleRequest(enum mg_event event,
 - (id)initWithPort:(int)port allowDirectoryListing:(BOOL)listing {
     if ((self = [super init])) {
         
+        NSString *portStr = [NSString stringWithFormat:@"%d", port];
+        
         const char *options[] = {
             "document_root", [NSHomeDirectory() UTF8String],
-            "listening_ports", "8080",
+            "listening_ports", [portStr UTF8String],
             "enable_directory_listing", listing ? "yes" : "no",
             NULL
         };
